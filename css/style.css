@@ -131,7 +131,7 @@ p{
 .recipies-card{
     width: 100%;
     padding: 20px;
-    box-shadow: 0px 0px 15px rgba(128, 128, 128, 0.5);
+    box-shadow: 0px 0px 15px rgba(128, 128, 128, 0.3);
     border-radius: 15px;
 }
 
@@ -167,3 +167,45 @@ p{
     color: #18191f;
 }
 
+.number-sec{
+    margin: 100px 0;
+}
+
+.number-card{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px 0;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(128, 128, 128, 0.3);
+}
+
+.card-1{
+    width: 100%;
+    padding: 20px;
+}
+
+.card-2{
+    width: 100%;
+    padding: 20px;
+}
+
+.card-3{
+    width: 100%;
+    padding: 20px;
+}
+
+.card-1 h1,
+.card-2 h1,
+.card-3 h1{
+    color: #18191f;
+    font-size: 60px;
+    padding-bottom: 10px;
+}
+
+.card-1 p,
+.card-2 p,
+.card-3 p{
+    color: #18191f;
+}
