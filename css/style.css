@@ -68,8 +68,11 @@ p{
 }
 
 .hero-img{
-    height: auto;
     width: 85%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .gradient-color{
@@ -84,10 +87,11 @@ p{
 }
 
 .about-img{
-    width: 75%;
+    width: 50%;
     height: auto;
-    text-align: center;
-    padding-left: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .about-header h1{
