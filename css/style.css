@@ -29,9 +29,12 @@ p{
     font-weight: 400;
 }
 
+a{
+    text-decoration: none;
+}
+
 .flexible-width{
     display: flex;
-    margin-bottom: 50px;
 }
 
 .half-width{
@@ -42,7 +45,6 @@ p{
 .btn-link{
     color: white;
     background-image: linear-gradient(45deg, #FBA24F, #FF1E1E);
-    text-decoration: none;
     font-weight: 400;
     padding: 15px 25px;
     border-radius: 50px;
@@ -100,7 +102,7 @@ p{
 
 .about-header p{
     color: #18191f;
-    padding: 50px 0 80px 0;
+    padding: 50px 0 70px 0;
     font-size: 18px;
 }
 
@@ -116,6 +118,7 @@ p{
 
 .recipies-header h1{
     color: #676767;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -208,4 +211,107 @@ p{
 .card-2 p,
 .card-3 p{
     color: #18191f;
+}
+
+.contact-sec{
+    background-image: url(../img/Frame58.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+}
+
+.contact-header{
+    padding: 50px 0;
+    text-align: center;
+    color: #575757;
+}
+
+.address-box{
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 3%;
+}
+
+.address-item:nth-child(1){
+    margin-top: 0;
+}
+
+.address-item{
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-top: 5%;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.5);
+    transition: .3s ease all;
+    border: 2px solid transparent;
+}
+
+.address-item:hover{
+    border: 2px solid #FF1E1E;
+}
+
+.address-item h2{
+    color: #252525;
+    padding-bottom: 10px;
+}
+
+.address-item a{
+    color: #FBA24F;
+    font-weight: 600;
+}
+
+.input-box{
+    width: 100%;
+    margin-left: 3%;
+    margin-right: 5%;
+}
+
+.form-input{
+    width: 80%;
+    margin: 0 auto;
+    background: transparent;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.3);
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    font-family: inherit;
+    font-weight: 500;
+    color: #252525;
+    font-size: 16px;
+    transition: .3s ease all;
+    border: 2px solid transparent;
+}
+
+.form-input:focus{
+    background-color: #ffffff;
+    border: 2px solid #FF1E1E;
+}
+
+.textarea-input{
+    width: 80%;
+    height: 150px;
+    margin: 0 auto;
+    background: transparent;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.3);
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    resize: none;
+    border-radius: 15px;
+    font-family: inherit;
+    font-weight: 500;
+    color: #252525;
+    font-size: 16px;
+    transition: .5s ease all;
+    border: 2px solid transparent;
+}
+
+.textarea-input:focus{
+    background-color: #ffffff;
+    border: 2px solid #FF1E1E;
 }
