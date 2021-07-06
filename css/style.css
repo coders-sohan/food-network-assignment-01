@@ -355,3 +355,32 @@ a{
     color: #ffffff;
     text-align: center;
 }
+
+/* Thank You */
+
+.thankyou{
+    height: 100vh;
+    padding: 250px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.thankyou h1{
+    color: #757575;
+    padding-bottom: 50px;
+    transition: .5s ease all;
+}
+
+.thankyou h1:hover{
+    color: #252525;
+}
+
+.thankyou a{
+    color: #FF1E1E;
+    font-weight: 600;
+    transition: .5s ease all;
+}
+
+.thankyou a:hover{
+    color: #FBA24F;
+}
